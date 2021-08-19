@@ -23,7 +23,7 @@ public class server extends JFrame implements ActionListener {
         p1.setBackground(new Color(7,94,84));
         p1.setBounds(0,0,450,70);
         add(p1);
-        ImageIcon I1= new ImageIcon(ClassLoader.getSystemResource("icons/3.png"));
+        ImageIcon I1= new ImageIcon(ClassLoader.getSystemResource("1.png"));
         Image i2= I1.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT);
         ImageIcon i = new ImageIcon(i2);
         JLabel l1= new JLabel(i);
